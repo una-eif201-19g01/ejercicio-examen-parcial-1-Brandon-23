@@ -19,7 +19,7 @@ public:
 
     virtual ~Cama();
 
-    const std::string &getCodigo() const;
+    std::string &getCodigo() const;
 
     void setCodigo(const std::string &codigo);
 
